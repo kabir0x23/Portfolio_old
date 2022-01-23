@@ -9,12 +9,12 @@ const Header = () => (
     <Container>
         <Div1>
             <Link href={"/"}>
-                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'20;'}}>
+                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'20'}}>
                     <DiCssdeck size={"3rem"}/> <Span>Portfolio</Span>
                 </a>
             </Link>
         </Div1>
-        <Div2>
+        <Div2 padding={10}>
             <li>
                 <Link href="#projects">
                     <NavLink>Projects</NavLink>
