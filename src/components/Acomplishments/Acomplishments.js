@@ -40,6 +40,7 @@ const Accomplishments = () => (
         </Boxes>
     </Section>
 <Section>
+    <SectionDivider divider />
     <SectionTitle>Community Accomplishments</SectionTitle>
     <Boxes>
         {data2.map((card, index) => (
