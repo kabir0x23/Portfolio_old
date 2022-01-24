@@ -14,7 +14,7 @@ const Header = () => (
                 </a>
             </Link>
         </Div1>
-        <Div2 padding={10}>
+        <Div2>
             <li>
                 <Link href="#projects">
                     <NavLink>Projects</NavLink>
