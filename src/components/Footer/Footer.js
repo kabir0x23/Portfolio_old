@@ -1,6 +1,9 @@
 import React from 'react';
 import {AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai';
 
+import {FaDiscord} from 'react-icons/fa';
+import {GiCyberEye} from 'react-icons/gi';
+
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -8,10 +11,10 @@ const Footer = () => {
   return (
       <FooterWrapper>
           <LinkList>
-              <LinkColumn>
-                  <LinkTitle>Call</LinkTitle>
-                  <LinkItem href={"tel:111-111-111"}>111-111-111</LinkItem>
-              </LinkColumn>
+              {/*<LinkColumn>*/}
+              {/*    <LinkTitle>Call</LinkTitle>*/}
+              {/*    <LinkItem href={"tel:111-111-111"}>111-111-111</LinkItem>*/}
+              {/*</LinkColumn>*/}
               <LinkColumn>
                   <LinkTitle>Email</LinkTitle>
                   <LinkItem href={"mailto:contact@kabir0x17.io"}>contact@kabir0x17.io</LinkItem>
