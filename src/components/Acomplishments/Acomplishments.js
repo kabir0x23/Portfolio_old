@@ -12,18 +12,16 @@ const data = [
 ];
 
 const data2 = [
-    {number: 0, text: 'Open Source Projects'},
-    {number: 0, text: 'Open Source Contributors',},
-    {number: 0, text: 'Github Followers',},
-    {number: 0, text: 'Github Stars',},
+    // {number: 0, text: 'Open Source Projects'},
+    // {number: 0, text: 'Open Source Contributors',},
+    // {number: 0, text: 'Github Followers',},
+    // {number: 0, text: 'Github Stars',},
     {number: 10, text: 'LinkedIn Followers',},
     {number: 1000, text: 'YouTube Subscribers',},
     {number: 1000, text: 'Twitter Followers',},
     {number: 2000,  text: 'Discord Community',},
     {number: 10000, text: 'Telegrams Members',},
-    {number: 10000, text: 'TheDevilsWorld\'s Instagram Followers',},
-    {number: 20000, text: 'CyberSecCommunity\'s Instagram Followers',},
-    {number: 60000, text: 'TheCyberWorld\'s Instagram Followers',}
+    {number: 100000, text: 'Instagram Followers',}
 ]
 
 const Accomplishments = () => (
