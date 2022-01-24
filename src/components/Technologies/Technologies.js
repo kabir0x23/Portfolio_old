@@ -1,5 +1,7 @@
 import React from 'react';
 import {DiFirebase, DiReact, DiZend} from 'react-icons/di';
+// import { GiCyberEye } from 'react-icons/fa';
+import { GiCyberEye,GiLaptop } from 'react-icons/gi';
 import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {List, ListContainer, ListItem, ListParagraph, ListTitle} from './TechnologiesStyles';
 
@@ -13,6 +15,16 @@ const Technologies = () => (
             From Back-end to Design
         </SectionText>
         <List>
+            <ListItem>
+                <GiCyberEye size={"3rem"}/>
+                <ListContainer>
+                    <ListTitle>Cyber Security</ListTitle>
+                    <ListParagraph>
+                        Experience with <br />
+                        WebApp, Network, API Pentesting.
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
             <ListItem>
                 <DiReact size={"3rem"}/>
                 <ListContainer>
@@ -30,16 +42,6 @@ const Technologies = () => (
                     <ListParagraph>
                         Experience with <br />
                         Node.js and Databases
-                    </ListParagraph>
-                </ListContainer>
-            </ListItem>
-            <ListItem>
-                <DiZend size={"3rem"}/>
-                <ListContainer>
-                    <ListTitle>UI/UX</ListTitle>
-                    <ListParagraph>
-                        Experience with <br />
-                        tools like Figma
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
