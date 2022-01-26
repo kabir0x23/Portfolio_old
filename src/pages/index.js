@@ -1,4 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Accomplishments from '../components/Accomplishments/Accomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
@@ -17,7 +17,7 @@ const Home = () => {
             <Projects/>
             <Technologies/>
             <Timeline/>
-            <Acomplishments/>
+            <Accomplishments/>
         </Layout>
     );
 };
