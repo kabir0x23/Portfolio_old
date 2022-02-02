@@ -8,7 +8,6 @@ const data = [
     {number: 10, text: 'Open Source Contributors',},
     {number: 40, text: 'Github Followers',},
     {number: 80, text: 'Github Stars',}
-
 ];
 
 const data2 = [
