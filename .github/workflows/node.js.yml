@@ -28,7 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    
+      env:
+        NEXT_PUBLIC_BASE_PATH: /portfolio
+
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4.2.3
       with:
