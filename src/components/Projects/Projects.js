@@ -5,7 +5,7 @@ import {BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, 
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import {projects} from '../../constants/constants';
 
-const prefix = '/portfolio'
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '/out' || ''
 
 const Projects = () => (
     <Section id="projects">
