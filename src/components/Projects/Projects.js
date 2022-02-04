@@ -5,7 +5,7 @@ import {BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, 
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import {projects} from '../../constants/constants';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '/out' || ''
+// const prefix = '/portfolio'
 
 const Projects = () => (
     <Section id="projects">
@@ -14,7 +14,7 @@ const Projects = () => (
         <GridContainer>
             {projects.map(({id, image, title, description, tags, source, visit}) => (
                 <BlogCard key={id}>
-                    <Img src={prefix + image} />
+                    <Img src={image} />
                     <TitleContent>
                         <HeaderThree title>{title}</HeaderThree>
                         <Hr />
