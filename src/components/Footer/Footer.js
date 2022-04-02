@@ -17,22 +17,22 @@ const Footer = () => {
               {/*</LinkColumn>*/}
               <LinkColumn>
                   <LinkTitle>Email</LinkTitle>
-                  <LinkItem href={"mailto:contact@kabir0x17.io"}>contact@kabir0x17.io</LinkItem>
+                  <LinkItem href={"mailto:contact@kabir0x23.io"}>contact@kabir0x23.io</LinkItem>
               </LinkColumn>
           </LinkList>
           <SocialIconsContainer>
               <CompanyContainer>
                   <Slogan>Your 🔐 security is in your hands</Slogan>
               </CompanyContainer>
-              <SocialIcons href="https://Twitter.com/kabir0x17">
+              <SocialIcons href="https://Twitter.com/kabir0x23">
                   <AiFillTwitterCircle size="3rem"/>
               </SocialIcons>
 
               <SocialContainer>
-              <SocialIcons href="https://github.com/kabir0x17">
+              <SocialIcons href="https://github.com/kabir0x23">
                   <AiFillGithub size="3rem"/>
               </SocialIcons>
-              <SocialIcons href="https://www.linkedin.com/in/kabir0x17/">
+              <SocialIcons href="https://www.linkedin.com/in/kabir0x23/">
                   <AiFillLinkedin size="3rem"/>
               </SocialIcons>
               </SocialContainer>
