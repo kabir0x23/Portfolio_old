@@ -14,7 +14,7 @@ const Hero = () => (
             <SectionText>
                 I am Cyber Security Enthusiast, a Full Stack Web Developer and a Programmer
             </SectionText>
-            <Button onClick={() => window.location = 'https://linktree.com/kabir0x17'}>Learn More</Button>
+            <Button onClick={() => window.location = 'https://linktree.com/kabir0x23'}>Learn More</Button>
         </LeftSection>
     </Section>
 );
