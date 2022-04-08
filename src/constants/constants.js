@@ -1,20 +1,20 @@
 export const projects = [
     {
-        title: 'MERN Memories',
-        description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-        image: '/images/1.png',
-        tags: ['Mongo', 'Express', 'React', 'Node'],
-        source: 'https://google.com',
-        visit: 'https://google.com',
+        title: 'NewsFlash',
+        description: "NewsFlash is going to provide various news by using API.",
+        image: '/images/img.png',
+        tags: ['Html', 'CSS', 'JavaScript'],
+        source: 'https://github.com/kabir0x23/NewsFlash',
+        visit: 'https://kabir0x23.github.io/NewsFlash/',
         id: 0,
     },
     {
         title: 'E-Commerce',
-        description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+        description: "NewsFlash is going to provide various news by using API.",
         image: '/images/2.png',
-        tags: ['React', 'JavaScript'],
-        source: 'https://google.com',
-        visit: 'https://google.com',
+        tags: ['Html', 'CSS', 'JavaScript'],
+        source: 'https://github.com/kabir0x23/NewsFlash',
+        visit: 'https://kabir0x23.github.io/NewsFlash/',
         id: 1,
     },
     {
@@ -39,8 +39,30 @@ export const projects = [
 
 export const TimeLineData = [
     {year: 2017, text: 'Started Diploma in Computer Science',},
-    {year: "2018-2019", text: 'Enjoyed College Life',},
-    {year: 2020, text: 'Started Learning about Cyber Security, Founded TheCyberWorld and Started B-TECH',},
-    {year: 2021, text: 'Started posting content on all major platforms',},
-    {year: 2022, text: 'Started Youtube',},
+    {
+        year: 2020,
+        text: <ul>
+            <li>1. Build a Blog Website with PHP</li>
+            <li>2. Started Learning about Cyber Security.</li>
+            <li>3. Founded TheCyberWorld.</li>
+            <li>4. Started B-TECH.</li>
+        </ul>
+    },
+    {
+        year: 2021,
+        text: <ul>
+            <li>1. Started learning about Html, CSS, Javascript</li>
+            <li>2. Started learning about Python</li>
+            <li>4. Started building thecyberworld community</li>
+            <li>4. Guided 20,000+ people.</li>
+        </ul>
+    },
+    {
+        year: 2022, text:
+            <ul>
+                <li>1. Started learning about Mern Stack</li>
+                <li>2. Started learning about AI</li>
+                <li>3. Started Youtube</li>
+            </ul>
+    },
 ];
