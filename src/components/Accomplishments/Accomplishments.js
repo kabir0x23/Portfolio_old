@@ -5,9 +5,9 @@ import {Box, Boxes, BoxNum, BoxText} from './AccomplishmentsStyles';
 
 const data = [
     {number: 1, text: 'Open Source Projects'},
-    {number: 10, text: 'Open Source Contributors',},
-    {number: 40, text: 'Github Followers',},
-    {number: 80, text: 'Github Stars',}
+    {number: 10, text: 'Open Source Contributions',},
+    {number: 100, text: 'Github Followers',},
+    {number: 100, text: 'Github Stars',}
 ];
 
 const data2 = [
@@ -15,12 +15,12 @@ const data2 = [
     // {number: 0, text: 'Open Source Contributors',},
     // {number: 0, text: 'Github Followers',},
     // {number: 0, text: 'Github Stars',},
-    {number: 10, text: 'LinkedIn Followers',},
+    {number: 50, text: 'LinkedIn Followers',},
     {number: 1000, text: 'YouTube Subscribers',},
-    {number: 1000, text: 'Twitter Followers',},
+    {number: 1500, text: 'Twitter Followers',},
     {number: 2000,  text: 'Discord Community',},
-    {number: 10000, text: 'Telegrams Members',},
-    {number: 100000, text: 'Instagram Followers',}
+    {number: 2500, text: 'Telegrams Members',},
+    {number: 125000, text: 'Instagram Followers',}
 ]
 
 const Accomplishments = () => (
