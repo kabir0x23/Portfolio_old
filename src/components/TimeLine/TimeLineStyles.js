@@ -51,7 +51,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: #0E131F;
+    background: #0f0f0f;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
