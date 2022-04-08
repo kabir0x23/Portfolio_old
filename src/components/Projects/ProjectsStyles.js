@@ -15,10 +15,12 @@ export const GridContainer = styled.section`
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
+    padding: 3rem;
+    column-gap: 2rem;
+    row-gap: 3rem;
+
   }
 
 `
