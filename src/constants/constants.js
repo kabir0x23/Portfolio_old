@@ -42,11 +42,12 @@ export const TimeLineData = [
     {
         year: 2020,
         text: <ul>
-            <li>1. Started learning about Html, CSS, Javascript and PHP</li>
-            <li>2. Build a Blog Website with PHP</li>
-            <li>3. Started Learning about Cyber Security.</li>
-            <li>4. Founded TheCyberWorld.</li>
-            <li>5. Started B-TECH.</li>
+            <li>1. Started learning about Html, CSS, Javascript.</li>
+            <li>2. Started learning about PHP and SQL.</li>
+            <li>3. Build a Blog Website with PHP</li>
+            <li>4. Started Learning about Cyber Security.</li>
+            <li>5. Founded TheCyberWorld.</li>
+            <li>6. Started B-TECH.</li>
         </ul>
     },
     {
