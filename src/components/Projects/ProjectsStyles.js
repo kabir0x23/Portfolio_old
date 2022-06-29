@@ -10,9 +10,9 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 3rem;
+  padding: 2rem;
   place-items: center;
-  column-gap: 2rem;
+  column-gap: 3rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -22,8 +22,10 @@ export const GridContainer = styled.section`
     row-gap: 3rem;
 
   }
-
 `
+
+
+
 export const BlogCard = styled.div`
   background: #1c1c1c;
   border-radius: 5px;
@@ -37,24 +39,33 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  
 
 `;
 
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
+  width: 150px;
+  height: 2px;
+  margin: 10px auto;
   border: 0;
-  background: #d0bb57;
+  background: #ff8100;
+`;
+
+export const Hrx = styled.hr`
+  width: 300px;
+  height: 2px;
+  margin: 10px auto;
+  border: 0;
+  background: #545454;
 `;
 
 export const Intro = styled.div`
@@ -71,6 +82,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
+  //padding: 0 25px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
@@ -87,15 +99,15 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 0rem 0 2rem 0;
 `;
 
 export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
-  border-radius: 15px;
+  background: #ab6112;
+  border-radius: 5px;
   transition: 0.5s;
 
   &:hover {
@@ -108,6 +120,7 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  
 `
 export const Tag = styled.li`
   color: #d8bfbf;
