@@ -9,7 +9,7 @@ import {
 // import {FaDiscord} from 'react-icons/fa';
 // import {GiCyberEye} from 'react-icons/gi';
 
-import {SocialIcons} from '../../../../Portfolio/src/components/Header/HeaderStyles';
+import {SocialIcons} from '../Header/HeaderStyles';
 import {
     CompanyContainer,
     FooterWrapper,
