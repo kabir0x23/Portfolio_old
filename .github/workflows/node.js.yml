@@ -31,7 +31,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /portfolio
+          NEXT_PUBLIC_BASE_PATH: /Portfolio_old
       - run: touch ./out/.nojekyll
 
       - name: Deploy 🚀
