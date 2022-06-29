@@ -1,10 +1,15 @@
 import React from 'react';
-import {AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai';
+import {
+    AiFillGithub,
+    AiFillInstagram,
+    AiFillLinkedin,
+    AiFillTwitterCircle
+} from 'react-icons/ai';
 
-import {FaDiscord} from 'react-icons/fa';
-import {GiCyberEye} from 'react-icons/gi';
+// import {FaDiscord} from 'react-icons/fa';
+// import {GiCyberEye} from 'react-icons/gi';
 
-import {SocialIcons} from '../Header/HeaderStyles';
+import {SocialIcons} from '../../../../Portfolio/src/components/Header/HeaderStyles';
 import {
     CompanyContainer,
     FooterWrapper,
